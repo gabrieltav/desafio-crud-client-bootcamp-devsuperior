@@ -1,3 +1,3 @@
-INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Gabriel', '03753511242', 900.000, '1994-07-20T10:30:00Z', 2);
-INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Marcos', '03853512343', 800.000, '1994-07-20T10:30:00Z', 3);
-INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Roberta', '03636514278', 700.000, '1994-07-20T10:30:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Gabriel', '03753511242', 900.000, '1994-07-20T10:30:00Z', 2, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Marcos', '03853512343', 800.000, '1994-07-20T10:30:00Z', 3, NOW());
+INSERT INTO tb_client (name, cpf, income, birth_Date, children, created_At) VALUES ('Roberta', '03636514278', 700.000, '1994-07-20T10:30:00Z', 1, NOW());
